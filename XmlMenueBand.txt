@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="onLoad_Menuband">
+  <ribbon startFromScratch="false">
+    <tabs>
+       <tab id="tabStandard" label="MENÜBAND NAME" > 
+		 <group id="grpBeenden" label=" " >  
+			<button id="btnBeenden" label="Anwendung beenden" size="large" screentip="Anwendung beenden"   
+			onAction="ribbonButtonAction" imageMso="CancelRequest"/>    
+		 </group>
+		 <group id="grpStammdaten" label=" " >  
+			<button id="btnStammdaten" label="Gasmaus Stammdaten" size="large" screentip="Gasmaus Stammdaten"   
+			onAction="ribbonButtonAction"/>    
+		 </group>
+		 
+		  <group id="grpGasmausverleih" label=" " >  
+			<button id="btnVerleih" label="Gasmaus Verleih" size="large" screentip="Gasmaus Verleih"   
+			onAction="ribbonButtonAction"/>    
+		 </group>		 
+		 
+		 <group id="grpLstGasmaus" label=" " >  
+			<button id="btnLstGasmaus" label="Liste aller Gasmäuse" size="large" screentip="Zeigt alle im system aufgenommenen Gasmäuse an"   
+			onAction="ribbonButtonAction"/>    
+		 </group>		 
+		 
+		 
+		 <group id="grpInfo" label=" " >
+ 
+		  <button id="btn9" label="Info"  size="large"  screentip="Info" supertip="Info" tag="frm_Info" 
+		  onAction="ribbonOpenForm" imageMso="Help"/> 
+		</group>                     
+	</tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="onLoad_Menuband">
+  <ribbon startFromScratch="false">
+    <tabs>
+       <tab id="tabStandard" label="MENÜBAND NAME" > 
+		 <group id="grpBeenden" label=" " >  
+			<button id="btnBeenden" label="Anwendung beenden" size="large" screentip="Anwendung beenden"   
+			onAction="ribbonButtonAction" imageMso="CancelRequest"/>    
+		 </group>
+		 <group id="grpStammdaten" label=" " >  
+			<button id="btnStammdaten" label="Gasmaus Stammdaten" size="large" screentip="Gasmaus Stammdaten"   
+			onAction="ribbonButtonAction"/>    
+		 </group>
+		 
+		 <group id="grpGasmausverleih" label=" " >  
+			<button id="btnVerleih" label="Gasmaus Verleih" size="large" screentip="Gasmaus Verleih"   
+			onAction="ribbonButtonAction"/>    
+		 </group>		 
+		 
+		 
+		 <group id="grpLstGasmaus" label=" " >  
+			<button id="btnLstGasmaus" label="Liste aller Gasmäuse" size="large" screentip="Zeigt alle im system aufgenommenen Gasmäuse an"   
+			onAction="ribbonButtonAction"/>    
+		 </group>		 
+		 
+		 <group id="grpInfo" label=" " >
+ 
+		  <button id="btn9" label="Info"  size="large"  screentip="Info" supertip="Info" tag="frm_Info" 
+		  onAction="ribbonOpenForm" imageMso="Help"/> 
+		</group>                     
+	</tab>
+    </tabs>
+  </ribbon>
+</customUI>
